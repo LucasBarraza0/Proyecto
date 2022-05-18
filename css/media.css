@@ -1,0 +1,835 @@
+@media only screen and (min-width:620px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+        padding: 90px 20px 0px;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(74, 130, 214);
+        box-shadow: 0 4px 5px rgb(107, 152, 221);
+        height:80px;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        position: fixed;
+    
+    }
+    .nombre-logo{
+        font-size: 35px;
+        font-style: italic;
+        font-family: sans-serif;
+        float: left;
+        padding: 25px 25px;
+    
+    }
+    .nombre-logo span{
+        color: white;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    .nav-menu{
+        display: flex;
+        list-style: none;
+        margin-right: 40px;
+    }
+    .nav-menu-item{
+        font-size: 18px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+    .nav-link:hover{
+        background-color: rgb(7, 56, 192);
+    }
+    .titulo1{
+        border: ridge;
+        background-color: black;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 25px;
+    }
+    .titulo2{
+        font-style: italic;
+        font-weight: bolder;
+        padding: 30px 25px;
+        font-size: 30px;
+        text-align: left;
+    }
+    .container .jordan1{
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: left;
+        height: 400px;
+        width: 500px;
+        margin-top: 100px;
+    }
+    .container .parrafo-j{
+        background-color: rgba(100, 148, 237, 0.582);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 200px;
+        max-width: 100%;
+    }
+    
+    .titulo3{
+        font-style: italic;
+        font-weight: bolder;
+        padding: 30px 25px;
+        font-size: 30px;
+    }
+    .container .psg{
+        float: right;
+        padding: 25px 50px;
+        display: flex;
+        border-radius: 12%;
+        height: 350px;
+        width: 500px;
+        margin-top: 110px;
+    }
+    
+    .parrafo-p{
+        background-color: rgba(100, 148, 237, 0.582);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 200px;
+        max-width: 100%;
+    }
+    
+    .titulo4{
+        font-style: italic;
+        font-weight: bolder;
+        padding: 30px 25px;
+        font-size: 30px;
+    }
+    .container .michaeljordan{
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: left;
+        height: 400px;
+        width: 500px;
+        margin-top: 100px;
+    }
+    .container .parrafo-m{
+        background-color: rgba(100, 148, 237, 0.582);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 200px;
+        max-width: 100%;
+    }
+    .subtitulo2{
+        border: ridge;
+        background-color: black;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 30px;
+    }
+    .container .ent{
+        font-style: italic;
+        font-weight: bolder;
+        padding: 30px 25px;
+        font-size: 70px;
+    }
+    .container .parrafo-ent{
+        font-style: italic;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        padding-right: 45px;
+        padding-top: 45px;
+        max-width: 100%;
+    }
+    .container .titulo-t{
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+        float: right;
+        padding: 25px 10px 0;
+        margin: 10px 10px;
+        color: white;
+    }
+    .container .logo-t{
+        padding: 25px 50px;
+        border-radius: 12%;
+        float: left;
+        height:300px;
+        width: 500px;
+    }
+    .container .parrafo-t{
+        background-color: rgba(43, 38, 38, 0.808);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 50px;
+        padding-bottom: 200px;
+        margin:20px 20px;
+        max-width: 100%;
+        color: white;
+    }
+    .container .moon{
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+        float: left;
+        color: white;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+    .container .logo-m{
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: right;
+        height:300px;
+        width: 500px;
+    }
+    .container .parrafo-k{
+        background-color: rgba(43, 38, 38, 0.808);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: left;
+        padding-right: 45px;
+        padding-top: 60px;
+        padding-bottom: 200px;
+        max-width: 100%;
+        padding-left: 25px;
+        color: white;
+    }
+    .container .mora{
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+        float: right;
+        padding: 25px 10px 0;
+        color: white;
+        padding-top: 30px;
+        padding-right: 60px;
+    }
+    .container .logo-disco{
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: left;
+        height: 400px;
+        width: 600px;
+    }
+    .container .parrafo-micro{
+        background-color: rgba(43, 38, 38, 0.808);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        max-width: 100%;
+        color: white;
+    }
+    
+    .subtitulo3{
+        border: ridge;
+        background-color: black;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 30px;
+    }
+    .container .subtitulo4{
+        font-style: italic;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        padding-right: 45px;
+        padding-top: 45px;
+        max-width: 100%;
+        margin: 10px 0px;
+    }
+    .container .shoes{
+        padding: 25px 50px;
+        border-radius: 15%;
+        float: right;
+        height: 400px;
+        width: 500px;
+        margin-top: 25px;
+    }
+    .container .shoes1{
+        display: flex;
+        padding: 25px 50px;
+        border-radius: 15%;
+        float: left;
+        height: 400px;
+        width: 500px;
+        }
+    .container .parrafo-shoes{
+        background-color: rgb(0, 0, 0);
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        padding-right: 45px;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        max-width: 100%;
+        color: white;
+    }
+    .container .logotipos{
+        display: flex;
+        padding: 25px 50px;
+        border-radius: 15%;
+        float: right;
+        height: 300px;
+        width: 500px;
+        margin-top: 25px;
+    }
+    .container .astro{
+        padding: 25px 50px;
+        border-radius: 15%;
+        float: left;
+        height: 400px;
+        width: 500px;
+    }
+    .container .parrafo-logotipos{
+        background-color: rgb(0, 0, 0);
+        margin-top: 20px;
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        padding-right: 45px;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        max-width: 100%;
+        color: white;
+    }
+    .container .cine{
+        padding: 25px 50px;
+        border-radius: 15%;
+        float: left;
+        height: 400px;
+        width: 500px;
+    }
+    .container .parrafo-cine{
+        background-color: rgb(0, 0, 0);
+        margin-top: 20px;
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+        padding-right: 45px;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        max-width: 100%;
+        color: white;
+        margin-bottom: 50px;
+    }
+    .container{
+        margin:0;
+    }
+    .container .titulo-proto{
+        text-align: center;
+        font: sans-serif;
+        font-size: 50px;
+        line-height: 75px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 50px;
+    
+    }
+    .container .proto{
+        display: flex;
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: left;
+        width: 600px;
+        height: 300x;
+    }
+    .container .parrafo-proto{
+        background-color: rgb(0, 0, 0);
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        max-width: 100%;
+        color: white;
+        margin-left: 700px;
+        padding: 20px 10px;
+        margin-bottom: 35px;
+    }
+    .silueta{
+        padding: 25px 25px;
+        margin: 25px 25px;
+        height: 400px;
+        width: 270px;
+    }
+    .parrafo-silueta{
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 25px 25px;
+    }
+    .container .titulo-psg{
+        text-align: center;
+        font-style: italic;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        line-height: 50px;
+    }
+    .container .parrafo-psg{
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 25px 25px;
+        text-align: center;
+    }
+    .container .psg-jordan{
+        width: 400px;
+        height: 300px;
+        padding: 10px 10px;
+        margin: 10px 30px;
+    }
+    .container .parrafo-psg2{
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 60px;
+        margin: 25px 25px;
+    }
+    .container .psg-jordan1{
+        width: 400px;
+        height: 500px;
+        padding: 45px 45pxpx;
+        margin-left: 200px;
+        margin-right: 5px;
+        border-radius: 25px;
+    }
+    .container .jordan-fc{
+        text-align: center;
+        font-style: italic;
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        line-height: 50px;
+    }
+    .container .mj{
+        display: flex;
+        width: 700px;
+        height: 600px;
+        padding: 25px 50px;
+        border-radius: 10%;
+        float: left;
+        margin: 30px 20px;
+    }
+    .container .parrafo-mj{
+        background-color:black;
+        border-radius: 3%;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 60px;
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        max-width: 100%;
+        color: white;
+    }
+    .container .parrafo-mj2{
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 25px 25px;
+        text-align: center;
+        margin: 20px 30px;
+    }
+    .container .jordan-mj{
+        width: 600px;
+        height: 500px;
+        padding: 10px 10px;
+        margin-left: 40px;
+        
+    }
+    .container .jordan-mj1{
+        width: 1000px;
+        height: 600px;
+        padding: 10px 10px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+    .container .mj-fc{
+        font-weight: bold;
+        font-style: italic;
+        padding: 50px 45px;
+        font-size: 60px;
+    }
+    .container .video-mj{
+        display: flex;
+        width: 1200px;
+        height: 700px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: 200px;
+    }
+    .titulo-thor{
+        text-align: center;
+        font: sans-serif;
+        font-size: 50px;
+        line-height: 75px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 50px;
+    }
+    .sinopsis{
+        font-style: italic;
+        font-size: 30px;
+        margin: 10px 10px;
+    }
+    .parrafo-thor{
+        font-family: sans-serif;
+        font-size: 25px;
+        line-height: 35px;
+        margin: 20px 20px;
+        text-align: center;
+    }
+    .foster{
+        padding: 20px 20px;
+        border-radius: 3px;
+        background-color: #000000;
+        margin-left:80px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .poster-thor{
+        padding: 20px 20px;
+        border-radius: 3px;
+        background-color: #000000;
+        height: 600px;
+        width: 550px;
+        margin: 20px 50px;
+    
+    }
+    .thor-trailer{
+        margin: 40px 100px;
+    }
+    .titulo-mk{
+        font: sans-serif;
+        font-size: 50px;
+        line-height: 75px;
+        margin:20px 50px;
+    
+    }
+    .subtitulo-mk{
+        font-size: 30px;
+        margin: 20px 20px;
+    
+    }
+    .parrafo-mk{
+        font-size: 18px;
+        line-height: 30px;
+        margin:40px 100px;
+    }
+    .subtitulo-mk2{
+        font-size: 30px;
+        margin: 20px 50px;
+    }
+    .poster-mk{
+        padding: 10px 10px;
+        border-radius: 3px;
+        background-color: #000000;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        height: 600px;
+        width: 1080px;
+    
+    }
+    .cap{
+        font-size: 30px;
+        margin: 20px 20px;
+    }
+    .parrafo-cap{
+        font-size: 18px;
+        line-height: 40px;
+        margin-left: 50px;
+    }
+    .titulo-musica{
+        font: sans-serif;
+        font-size: 50px;
+        line-height: 75px;
+        margin:20px 50px;
+    
+    }
+    .subtitulo-musica{
+        font-size: 30px;
+        margin: 20px 20px;
+    }
+    .parrafo-microdosis{
+        font-size: 18px;
+        line-height: 40px;
+        margin-left: 50px;
+    }
+    .sub-microdosis{
+        font-size: 30px;
+        margin: 20px 50px;
+    }
+    .meme-mora{
+        width: 600px;
+        height: 500px;
+        padding: 5px 5px;
+        border-radius: 3px;
+        background-color: #000000;
+        margin-left: 100px;
+        margin-right: 70px;
+    
+    }
+    .meme-mora1{
+        width: 600px;
+        height: 550px;
+        padding: 5px 5px;
+        border-radius: 3px;
+        background-color: #000000;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .nosotros{
+        font: sans-serif;
+        font-size: 50px;
+        line-height: 75px;
+        margin:20px 50px;
+    }
+    .sub-nosotros{
+        font-size: 25px;
+        margin: 20px 20px;
+    }
+    .peliculas{
+        font-size: 30px;
+        margin: 20px 50px;
+    }
+    .volver{
+        font-size: 25px;
+        margin: 20px 20px;
+    }
+    .volver1{
+        width: 600px;
+        height: 500px;
+        padding: 10px 10px;
+        margin: 25px 60px;
+        border-radius: 25px;
+        padding: 5px 5px;
+        border-radius: 3px;
+        background-color: #000000;
+    }
+    .volver2{
+        width: 800px;
+        height: 500px;
+        padding: 10px 10px;
+        margin: 25px 60px;
+        border-radius: 25px;
+        padding: 5px 5px;
+        border-radius: 3px;
+        background-color: #000000;
+    }
+    .sub-volver{
+        font-size: 28px;
+        line-height: 30px;
+        margin:40px 100px;
+    }
+    .tarantino{
+        width: 400px;
+        height: 500px;
+        padding: 10px 10px;
+        margin: 25px 60px;
+        border-radius: 25px;
+        border-radius: 3px;
+        background-color: #000000;
+    }
+    .tarantino1{
+        font-size: 28px;
+        line-height: 30px;
+        margin:40px 100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .container .formulario{
+        text-align: center;
+        font: sans-serif;
+        font-size: 100px;
+        line-height: 75px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 50px;
+    }
+    
+    form{
+        width: 450px;
+        margin: auto;
+        background: rgb(74, 130, 214);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .container  .form{
+        text-align: center;
+        margin: 0;
+        font-size: 400px;
+        margin-bottom: 20px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    input, textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+    textarea{
+        min-height: 50px;
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 200px
+    }
+    #boton{
+        background: #100216;
+        color: #fff;
+        padding: 20px;
+    }
+    #boton:hover{
+        cursor: pointer;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .pie-pagina{
+        width: 100%;
+        background-color: rgb(74, 130, 214);
+        background-size: 100% 85%;
+    }
+    .logo-f{
+        width: 600px;
+        height: 200px;
+    }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 250px;
+    
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: white;
+        margin-bottom:25px;
+        font-size: 20px;
+    
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #151779;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    
+}

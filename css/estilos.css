@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 130, 214);
+    box-shadow: 0 4px 5px rgb(107, 152, 221);
+    min-height: 100px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin: 20px 20px;
+}
+.nombre-logo{
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif;
+    float: left;
+    margin: 30px;
+}
+.nombre-logo span{
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    margin: 0 auto;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.nav-link:hover{
+    background-color: rgb(7, 56, 192);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.titulo1{
+    border: ridge;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 270px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.titulo2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.jordan1{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .parrafo-j{
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container .psg{
+    width: 100%;
+    height: 600px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+
+.container .titulo3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.parrafo-p{
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container .michaeljordan{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .titulo4{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.container .parrafo-m{
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+#entretenimiento{
+    margin: 0px;
+}
+.subtitulo2{
+    border: ridge;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container .ent{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.container .parrafo-ent{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+
+}
+.container .titulo-t{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.container .logo-t{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%
+}
+.container .parrafo-t{
+    background-color: rgba(43, 38, 38, 0.808);
+    color: white;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container .moon{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.container .logo-m{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%
+}
+.container .parrafo-k{
+    background-color: rgba(43, 38, 38, 0.808);
+    color: white;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container .mora{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+.container .logo-disco{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .parrafo-micro{
+    background-color: rgba(43, 38, 38, 0.808);
+    color: white;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-left:  45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container .subtitulo3{
+    border: ridge;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container .subtitulo4{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+.container .shoes{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .shoes1{
+    display: none;
+}
+.container .parrafo-shoes{
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    color: white;
+}
+.container .logotipos{
+    display: none;
+}
+.container .astro{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .parrafo-logotipos{
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    color: white;
+}
+.container .cine{
+    width: 100%;
+    height: 300px;
+    padding: 25px 50px;
+    border-radius: 10%;
+}
+.container .parrafo-cine{
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    max-width: 100%;
+    color: white;
+}
+.container .titulo-proto{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.container .proto{
+    display: none;
+}
+.container .parrafo-proto{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+
+}
+.container .silueta{
+    padding: 25px 25px;
+    margin: 25px 25px;
+    
+}
+.container .parrafo-silueta{
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 25px 25px;
+    margin: 25px 25px;
+}
+.container .titulo-psg{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.container .parrafo-psg{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.container .psg-jordan{
+    width: 600px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 15px 15px;
+}
+.container .parrafo-psg2{
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 25px 25px;
+    padding:25px 25px;
+}
+.container .psg-jordan1{
+    width: 195px;
+    height: 300px;
+    padding: 10px 10px;
+    margin: 25px 50px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.container .jordan-fc{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.container .mj{
+    display: none;
+}
+.container .parrafo-mj{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.container .parrafo-mj2{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 25px 25px;
+    text-align: center;
+    margin: 20px 30px;
+}
+.container .jordan-mj{
+    width: 273px;
+    height: 300px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.container .jordan-mj1{
+    width: 640px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.container .mj-fc{
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 50px 45px;
+    font-size: 60px;
+}
+.container .video-mj{
+    display: none;
+}
+
+.container .formulario{
+    text-align: center;
+    font: sans-serif;
+    font-size: 30px;
+    line-height: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgb(74, 130, 214);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.container .form{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+input, textarea{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 50px;
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 200px
+}
+#boton{
+    background: #100216;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;}
+
+    .pie-pagina{
+        width: 100%;
+        background-color: rgb(74, 130, 214);
+        box-shadow: 0 4px 5px rgb(107, 152, 221);
+        background-size: 100% 85%;
+    }
+    .logo-f{
+        width: 600px;
+        height: 200px;
+    }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 250px;
+    
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: white;
+        margin-left: 20px;
+        margin-bottom:25px;
+        font-size: 20px;
+    
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-left: 30px;
+        margin-right: 10px;
+        background-color: #151779;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
