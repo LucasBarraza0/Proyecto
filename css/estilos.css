@@ -13,7 +13,7 @@ body{
 .header{
     display: flex;
     flex-direction: column;
-    background-color: rgb(74, 130, 214);
+    background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
     box-shadow: 0 4px 5px rgb(107, 152, 221);
     min-height: 100px;
     min-width: 10%;
@@ -56,8 +56,8 @@ body{
 }
 .nav-menu-item{
     font-size: 18px;
-    margin: 0 10px;
-    line-height: 80px;
+    margin: 0 4px;
+    line-height: 50px;
     text-transform: uppercase;
     width: max-content;
 }
@@ -67,7 +67,9 @@ body{
     border-radius: 3px;
 }
 .nav-link:hover{
-    background-color: rgb(7, 56, 192);
+    background-color: rgb(9, 34, 104);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgb(0, 0, 0,0.5) ;
 }
 .container{
     max-width: 1400px;
@@ -78,7 +80,7 @@ body{
     border: ridge;
     background-color: black;
     color: white;
-    width: 100%;
+    max-width: 100%;
     font-style: italic;
     font-weight: bold;
     text-align: center;
@@ -532,6 +534,307 @@ body{
 .container .video-mj{
     display: none;
 }
+.container .titulo-thor{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.container .sinopsis{
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px 35px;
+}
+.container .parrafo-thor{
+    background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.container .foster{
+    display: none;
+}
+.container .poster-thor{
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 15px 60px;
+}
+.container .thor-trailer{
+    width: 700px;
+    height:500px;
+    padding: 10px 10px;
+    margin: 15px 0px;
+}
+.container .titulo-mk{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.container .subtitulo-mk{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 20px;
+    margin: 20px 30px;
+}
+.container .parrafo-mk{
+    background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.container .subtitulo-mk2{
+    text-align: center;
+}
+.container .caballero-luna{
+    width: 500px;
+    height: 650px;
+    padding: 10px 10px;
+    margin: 15px 60px;
+}
+.container .cap{
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px 35px;
+}
+.container .parrafo-cap{
+    background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.titulo-musica{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px
+}
+.subtitulo-musica{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px 10px;
+    margin: 10px 35px;
+}
+.logo-mora{
+    height: 500px;
+    width: 600px;
+}
+.parrafo-microdosis{
+    background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px;
+}
+.playlist{
+    padding: 10px 10px;
+}
+.tracklist{
+    height: 570px;
+    padding: 10px 10px;
+    margin: 10px 20px;
+}
+.sub-microdosis{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px 10px;
+    margin: 10px 35px;
+}
+.meme-mora{
+    width: 500px;
+    height: 650px;
+    padding: 10px 10px;
+    margin: 15px 60px;
+}
+.nosotros{
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 50p
+}
+.sub-nosotros{
+    background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px
+}
+.peliculas{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px 10px;
+    margin: 10px 35px;
+}
+.volver-li{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 20px;
+    margin: 20px 30px;
+}
+.volver1{   
+    height: 400px;
+    width: 580px;
+    margin: 10px 10px;
+
+}
+.volver2{
+    display: none;
+}
+.sinopsis{
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px 35px;
+}
+.sub-volver{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+.volver{
+    background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 40px
+}
+.tarantino1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+.tarantino{
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 15px 60px
+}
+.reserva{
+    display: none;
+}
+.gloria{
+    display: none;
+}
+.hollywood{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container .formulario{
     text-align: center;
@@ -1277,46 +1580,51 @@ textarea{
             margin-bottom: 35px;
             margin-left: 200px;
         }
-        .titulo-thor{
+        .container .titulo-thor{
             text-align: center;
             font: sans-serif;
             font-size: 50px;
             line-height: 75px;
             margin-top: 30px;
             margin-bottom: 30px;
-            line-height: 50px;
+            line-height: 100px;
         }
         .sinopsis{
             font-style: italic;
             font-size: 30px;
             margin: 10px 10px;
         }
-        .parrafo-thor{
+        .container .parrafo-thor{
             font-family: sans-serif;
+            max-width: 100%;
             font-size: 25px;
             line-height: 35px;
             margin: 20px 20px;
             text-align: center;
         }
-        .foster{
-            padding: 20px 20px;
-            border-radius: 3px;
-            background-color: #000000;
-            margin-left:80px;
-            margin-top: 20px;
-            margin-bottom: 100px;
+        .grid-thor {  display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            grid-auto-rows: 1fr;
+            gap: 0px 26px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
         }
-        .poster-thor{
-            padding: 20px 20px;
-            border-radius: 3px;
-            background-color: #000000;
-            height: 600px;
-            width: 550px;
-            margin: 20px 50px;
+        .grid-thor .foster{
+            display: flex;
+            height: 480px;
+            width: 700px;
+            margin-left: 25px;
+        }
         
-        }
-        .thor-trailer{
-            margin: 40px 100px;
+        
+        .container .thor-trailer{
+            display: flex;
+            border:black 10px;
+            height: 600px;
+            width: 1000px;
+
         }
         .titulo-mk{
             font: sans-serif;
@@ -1337,18 +1645,47 @@ textarea{
         }
         .subtitulo-mk2{
             font-size: 30px;
-            margin: 20px 50px;
+            margin-left: 360px;
         }
-        .poster-mk{
-            padding: 10px 10px;
-            border-radius: 3px;
-            background-color: #000000;
-            margin-left: 100px;
-            margin-bottom: 40px;
-            height: 600px;
-            width: 1080px;
+        .container .mk-trailer{
+            display: flex;
+            height: 700px;
+            width: 1000px;
+            padding: 25px 25px;
+            margin-left: 360px;
+        }
+        .grid-mk {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "poster-mk poster-mk2 poster-mk3";
         
         }
+        
+        .poster-mk .caballero-luna{
+            grid-area: poster-mk;
+            width: 450px;
+            height: 650px;
+        }
+        
+        .poster-mk2 .caballero-luna{
+            grid-area: poster-mk2;
+            width: 450px;
+            height: 640px;
+        }
+        
+        .poster-mk3 .caballero-luna{
+            grid-area: poster-mk3;
+            width: 450px;
+            height: 650px;
+        }
+        
+        
+        
         .cap{
             font-size: 30px;
             margin: 20px 20px;
@@ -1369,10 +1706,30 @@ textarea{
             font-size: 30px;
             margin: 20px 20px;
         }
-        .parrafo-microdosis{
-            font-size: 18px;
-            line-height: 40px;
-            margin-left: 50px;
+        .grid-mora {  display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "parrafo-mora parrafo-mora1";
+        }
+        
+        .parrafo-mora {
+            grid-area: parrafo-mora;
+            width: 450px;
+            height: 650px;
+        }
+        
+        .parrafo-mora1 .parrafo-microdosis{
+            grid-area: parrafo-mora1;
+            width: 600px;
+            height: 600px;
+        }
+        .playlist{
+            border-radius: 12%;
         }
         .sub-microdosis{
             font-size: 30px;
