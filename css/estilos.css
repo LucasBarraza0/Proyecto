@@ -66,6 +66,9 @@ body{
     text-decoration: none;
     border-radius: 3px;
 }
+.nav-link{
+    transition: all 0.3s ease 0s;
+}
 .nav-link:hover{
     background-color: rgb(9, 34, 104);
     transform: scale(1.1);
@@ -773,11 +776,32 @@ body{
 .reserva{
     display: none;
 }
+.reserva1{
+    display: none;
+}
+.gloria3{
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 15px 60px
+}
 .gloria{
     display: none;
 }
-.hollywood{
+.gloria1{
     display: none;
+}
+.hollywood{
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 15px 60px
+}
+.hollywood1{
+    display:none ;
+}
+.hollywood2{
+    display:none ;
 }
 
 
@@ -889,8 +913,8 @@ textarea{
     cursor: pointer;}
 
     .pie-pagina{
-        width: 100%;
-        background-color: rgb(74, 130, 214);
+        min-width: 100%;
+        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
         box-shadow: 0 4px 5px rgb(107, 152, 221);
         background-size: 100% 85%;
     }
@@ -938,7 +962,7 @@ textarea{
         color: #fff;
         margin-left: 30px;
         margin-right: 10px;
-        background-color: #151779;
+        background-color: #1e569ed7;
         text-align: center;
         transition: all 0.5s ease;
     }
@@ -990,6 +1014,9 @@ textarea{
             color: white;
             text-decoration: none;
             border-radius: 3px;
+        }
+        .nav-link{
+            transition: all 0.3s ease 0s;
         }
         .nav-menu{
             display: flex;
@@ -1767,58 +1794,152 @@ textarea{
         .peliculas{
             font-size: 30px;
             margin: 20px 50px;
+            text-align: left;
         }
-        .volver{
+        .volver-li{
             font-size: 25px;
             margin: 20px 20px;
+            text-align: left;
         }
-        .volver1{
-            width: 600px;
-            height: 500px;
-            padding: 10px 10px;
-            margin: 25px 60px;
-            border-radius: 25px;
-            padding: 5px 5px;
-            border-radius: 3px;
-            background-color: #000000;
+        .grid-volver {  display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "volver1 volver2";
         }
-        .volver2{
-            width: 800px;
-            height: 500px;
-            padding: 10px 10px;
-            margin: 25px 60px;
-            border-radius: 25px;
-            padding: 5px 5px;
-            border-radius: 3px;
-            background-color: #000000;
+        
+        .volver1 {
+            grid-area: volver1;
+            width: 550px;
+            height: 650px;
+            padding: 15px 15px;
         }
+        
+        .volver2 {
+            display: flex;
+            grid-area: volver2;
+            width: 700px;
+            height: 550px;
+        }
+        
         .sub-volver{
             font-size: 28px;
             line-height: 30px;
             margin:40px 100px;
         }
-        .tarantino{
-            width: 400px;
+        .grid-reserva {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "tarantino reserva reserva1";
+        }
+        
+        .tarantino {
+            grid-area: tarantino;
+            width: 300px;
             height: 500px;
             padding: 10px 10px;
             margin: 25px 60px;
             border-radius: 25px;
             border-radius: 3px;
-            background-color: #000000;
+        }
+        
+        .reserva { grid-area: reserva;
+            display: flex;
+            width: 500px;
+            padding: 10px 10px;
+            margin: 25px 60px;
+        }
+        
+        .reserva1 { grid-area: reserva1;
+            display: flex;
+            width: 500px;
+            height: 600px;
+            padding: 10px 10px;
+            margin: 25px 60px;
         }
         .tarantino1{
             font-size: 28px;
             line-height: 30px;
             margin:40px 100px;
         }
+        .grid-gloria {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "gloria3 gloria gloria1";
+        }
         
+        .gloria3 {
+            grid-area: gloria3;
+            width: 400px;
+            height: 500px;
+            padding: 10px 10px;
+            margin: 25px 30px
+        }
         
+        .gloria { grid-area: gloria;
+            display: flex;
+            width: 680px;
+            height: 400px;
+            padding: 10px 10px;
+            margin: 25px 30px
+        }
         
+        .gloria1 { grid-area: gloria1;
+            display: flex;
+            width: 600px;
+            height:auto ;
+            padding: 10px 10px;
+            margin: 25px 30px
+        }
+        .grid-hollywood {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0em 5px;
+            grid-auto-flow: row;
+            justify-items: center;
+            align-items: center;
+            grid-template-areas:
+            "hollywood hollywood1 hollywood2";
+        }
         
+        .hollywood {
+            grid-area: hollywood;
+            width: 300px;
+            height: 500px;
+            padding: 10px 10px;
+            margin: 25px 60px;
+        }
         
+        .hollywood1 { grid-area: hollywood1;
+            display: flex;
+            width: 680px;
+            height: 450px;
+        }
         
+        .hollywood2 { grid-area: hollywood2;
+            display:flex;
+            width: 450px;
+            height: 500px;
+            padding: 10px 10px;
+            margin: 25px 60px;
+        }
+
         
-        
+
         
         
         
@@ -1935,7 +2056,7 @@ textarea{
             line-height: 45px;
             color: #fff;
             margin-right: 10px;
-            background-color: #151779;
+            background-color: #1e569ed7;
             text-align: center;
             transition: all 0.5s ease;
         }
