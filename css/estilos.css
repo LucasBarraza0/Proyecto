@@ -10,84 +10,43 @@ body {
     overflow-x: hidden;
 
 }
-
-.header {
-    display: flex;
-    flex-direction: column;
+.fondo-nav {
     background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
-    box-shadow: 0 4px 5px rgb(107, 152, 221);
-    min-height: 100px;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
 
 }
-
-.logo {
-    display: flex;
-    align-items: center;
+.nav-link{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 25px 25px;
+    margin: 15px;
 }
-
-.logo img {
-    height: 80px;
-    margin: 20px 20px;
-}
-
-.nombre-logo {
-    font-size: 35px;
-    font-style: italic;
-    font-family: sans-serif;
-    float: left;
-    margin: 30px;
-}
-
-.nombre-logo span {
-    color: white;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0px;
-}
-
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-    margin-right: 40px;
-    margin: 0 auto;
-}
-
-.nav-menu-item {
-    font-size: 18px;
-    margin: 0 1px;
-    line-height: 10px;
-    text-transform: uppercase;
-    width: max-content;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
-}
-
-.nav-link {
-    transition: all 0.3s ease 0s;
-}
-
-.nav-link:hover {
+.nav-link:hover{
     background-color: rgb(84, 111, 185);
     transform: scale(1.1);
+    transition:all 0.3s ease 0s ;
     box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
 }
 
-
+.nav-item {
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    line-height: 10px;
+}
+.carousel-inner img {
+    display: none;
+    width: 100%;
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-prev{
+    display: none;
+}
+.carousel-control-next{
+    display: none;
+}
 .titulo1 {
     border: ridge;
     background-color: black;
@@ -97,7 +56,7 @@ body {
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
-    margin-top: 270px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -134,9 +93,9 @@ body {
 
 .container .psg {
     width: 100%;
-    height: 600px;
+    height: 400px;
     padding: 25px 50px;
-    border-radius: 10%;
+    border-radius: 12%;
 }
 
 .container .titulo3 {
@@ -240,8 +199,8 @@ body {
 }
 
 .container .parrafo-t {
-    background-color: rgba(43, 38, 38, 0.808);
-    color: white;
+    background-color: rgba(100, 148, 237, 0.582);
+    color: black;
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -271,8 +230,8 @@ body {
 }
 
 .container .parrafo-k {
-    background-color: rgba(43, 38, 38, 0.808);
-    color: white;
+    background-color: rgba(100, 148, 237, 0.582);
+    color: black;
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -302,8 +261,8 @@ body {
 }
 
 .container .parrafo-micro {
-    background-color: rgba(43, 38, 38, 0.808);
-    color: white;
+    background-color: rgba(100, 148, 237, 0.582);
+    color: black;
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -351,7 +310,7 @@ body {
 }
 
 .container .parrafo-shoes {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 3%;
@@ -364,7 +323,7 @@ body {
     padding-top: 80px;
     padding-bottom: 45px;
     max-width: 100%;
-    color: white;
+    color:black;
 }
 
 .container .logotipos {
@@ -379,7 +338,7 @@ body {
 }
 
 .container .parrafo-logotipos {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 3%;
@@ -392,7 +351,7 @@ body {
     padding-top: 80px;
     padding-bottom: 45px;
     max-width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .container .cine {
@@ -403,7 +362,7 @@ body {
 }
 
 .container .parrafo-cine {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 3%;
@@ -416,7 +375,7 @@ body {
     padding-top: 80px;
     padding-bottom: 45px;
     max-width: 100%;
-    color: white;
+    color: black;
 }
 
 .titulo-proto {
@@ -1014,7 +973,7 @@ textarea {
 
 #boton:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.3s ease 0s
 }
 
@@ -1081,8 +1040,7 @@ p {
     margin: 15px 15px;
     transition: all 0.5s ease;
 }
-
-@media only screen and (min-width:620px) {
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait){
     * {
         padding: 0;
         margin: 0;
@@ -1091,69 +1049,123 @@ p {
 
     body {
         font-family: sans-serif;
-        padding: 90px 20px 0px;
     }
-
-
-    .header {
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(74, 130, 214);
-        box-shadow: 0 4px 5px rgb(107, 152, 221);
-        height: 80px;
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        position: fixed;
-
+    .fondo-nav {
+        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
+        box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
+        flex-direction: column;
     }
-
-    .nombre-logo {
-        font-size: 35px;
-        font-style: italic;
-        font-family: sans-serif;
-        float: left;
-        padding: 25px 25px;
-
+    .nav-link{
+        flex-direction: column-reverse;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bolder;
+        padding: 5px 5px;
+        margin: 5px;
     }
-
-    .nombre-logo span {
-        color: white;
-    }
-
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-
-    }
-
-    .nav-link {
-        color: white;
-        text-decoration: none;
-        border-radius: 3px;
-    }
-
-    .nav-link {
-        transition: all 0.3s ease 0s;
-    }
-
-    .nav-menu {
-        display: flex;
-        list-style: none;
-        margin-right: 40px;
-    }
-
-    .nav-menu-item {
-        font-size: 18px;
-        margin: 0 10px;
-        line-height: 80px;
-        text-transform: uppercase;
-        width: max-content;
-    }
-
-    .nav-link:hover {
+    .nav-link:hover{
         background-color: rgb(84, 111, 185);
+        transform: scale(1.1);
+        transition:all 0.3s ease 0s ;
+        box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
+    }
+    
+    .nav-item {
+        font-size: 18px;
+        padding: 10px;
+        margin: 10px;
+        line-height: 10px;
+    }
+    .container .psg-jordan0{
+        height: 300px;
+        width: 270px;
+        margin-right: 20px;
+    }
+    .grid-thor .poster-thor{
+        margin-left: 100px;
+    }
+    .grid-mora .logo-mora{
+        margin-left: 150px;
+    }
+    .tracklist{
+        margin-left: 150px;
+    }
+    .meme-mora{
+        margin-left: 150px;
+    }
+    .grid-volver .volver1{
+        margin-left: 150px;
+    }
+    .grid-reserva .tarantino{
+        margin-left: 150px;
+    }
+    .grid-gloria .gloria3{
+        margin-left: 150px;
+    }
+    .grid-hollywood .hollywood{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+    }
+    .fondo-nav {
+        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
+        box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
+    }
+    .nav-link{
+        flex-direction: column-reverse;
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 25px 25px;
+        margin: 15px;
+    }
+    .nav-link:hover{
+        background-color: rgb(84, 111, 185);
+        transform: scale(1.1);
+        transition:all 0.3s ease 0s ;
+        box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
+    }
+    
+    .nav-item {
+        font-size: 18px;
+        padding: 20px;
+        margin: 10px;
+        line-height: 20px;
+    }
+    .carousel-inner img {
+        display: flex;
+        width: 100%;
+    }
+    .carousel-indicators{
+        display: flex;
+    }
+    .carousel-control-prev{
+        display: flex;
+    }
+    .carousel-control-next{
+        display: flex;
+    }
+    .titulo-carousel{
+        text-shadow: 3px 3px 2px rgb(49, 42, 42);
+        color: rgb(109, 109, 109);
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .parrafo-carousel{ 
+        text-shadow: 3px 3px 2px rgb(49, 42, 42);
+        color: rgb(109, 109, 109);
+        font-size: 25px;
+        font-weight: bolder;
+
     }
     .container {
         max-width: 1800px;
@@ -1240,8 +1252,8 @@ p {
         padding: 25px 50px;
         border-radius: 12%;
         float: left;
-        height: 400px;
-        width: 500px;
+        height:350px;
+        width: 480px;
         margin-top: 100px;
         margin-left: 75px;
     }
@@ -1368,8 +1380,8 @@ p {
         padding: 25px 50px;
         border-radius: 10%;
         float: left;
-        height: 400px;
-        width: 600px;
+        height: 350px;
+        width: 580px;
     }
 
     .container .parrafo-micro {
@@ -1851,7 +1863,7 @@ p {
 
     .subtitulo-mk2 {
         font-size: 30px;
-        margin-left: 360px;
+        margin-left: 250px;
     }
 
     .container .mk-trailer {
@@ -2205,7 +2217,7 @@ p {
 
     #boton:hover {
         cursor: pointer;
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: all 0.3s ease 0s
     }
 
