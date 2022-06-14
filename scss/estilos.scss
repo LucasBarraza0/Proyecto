@@ -13,7 +13,9 @@ $colores:(
     "primario":linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8),
     "secundario":rgba(100, 148, 237, 0.582),
     "titulo":black,);
-
+@each $colores in linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8), rgba(100, 148, 237, 0.582),black {
+    
+}
 
 
 body {
