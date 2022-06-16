@@ -9,7 +9,6 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
 }
-<<<<<<< HEAD
 
 .fondo-nav {
   background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
@@ -66,57 +65,20 @@ body {
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
-=======
-.fondo-nav {
-    background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
-    box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
-
-}
-.nav-link{
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 25px 25px;
-    margin: 15px;
-}
-.nav-link:hover{
-    background-color: rgb(84, 111, 185);
-    transform: scale(1.1);
-    transition:all 0.3s ease 0s ;
-    box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
 }
 
-.nav-item {
-    font-size: 18px;
-    padding: 20px;
-    margin: 10px;
-    line-height: 10px;
-}
-.carousel-inner img {
-    display: none;
-    width: 100%;
-}
-.carousel-indicators{
-    display: none;
-}
-.carousel-control-prev{
-    display: none;
-}
-.carousel-control-next{
-    display: none;
-}
 .titulo1 {
-    border: ridge;
-    background-color: black;
-    color: white;
-    max-width: 100%;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
+  border: ridge;
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .titulo2 {
@@ -150,17 +112,10 @@ body {
 }
 
 .container .psg {
-<<<<<<< HEAD
   width: 100%;
   height: 400px;
   padding: 25px 50px;
   border-radius: 12%;
-=======
-    width: 100%;
-    height: 400px;
-    padding: 25px 50px;
-    border-radius: 12%;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
 }
 
 .container .titulo3 {
@@ -1124,6 +1079,7 @@ p {
     margin-left: 150px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   * {
     padding: 0;
@@ -1330,7 +1286,6 @@ p {
     font-family: sans-serif;
     font-style: italic;
     font-weight: bolder;
-<<<<<<< HEAD
     float: right;
     padding: 25px 10px 0;
     margin: 10px 10px;
@@ -1347,22 +1302,6 @@ p {
 
   .container .parrafo-t {
     background-color: rgba(43, 38, 38, 0.808);
-=======
-    padding: 30px 25px;
-    font-size: 30px;
-}
-
-.container .logo-t {
-    width: 100%;
-    height: 300px;
-    padding: 25px 50px;
-    border-radius: 10%
-}
-
-.container .parrafo-t {
-    background-color: rgba(100, 148, 237, 0.582);
-    color: black;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1373,29 +1312,25 @@ p {
     padding-bottom: 200px;
     margin: 20px 20px;
     max-width: 100%;
-<<<<<<< HEAD
-    color: white;
-  }
-=======
     margin-left: 20px;
-}
+  }
 
-.container .moon {
+  .container .moon {
     text-align: center;
     font-style: italic;
     font-weight: bolder;
     padding: 30px 25px;
     font-size: 30px;
-}
+  }
 
-.container .logo-m {
+  .container .logo-m {
     width: 100%;
     height: 300px;
     padding: 25px 50px;
     border-radius: 10%
-}
+  }
 
-.container .parrafo-k {
+  .container .parrafo-k {
     background-color: rgba(100, 148, 237, 0.582);
     color: black;
     border-radius: 3%;
@@ -1409,8 +1344,7 @@ p {
     padding-bottom: 45px;
     max-width: 100%;
     margin-left: 20px;
-}
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
+  }
 
   .container .moon {
     font-family: sans-serif;
@@ -1430,48 +1364,9 @@ p {
     width: 500px;
   }
 
-<<<<<<< HEAD
-  .container .parrafo-k {
-    background-color: rgba(43, 38, 38, 0.808);
-    border-radius: 3%;
-    font-style: italic;
-    font-size: 25px;
-    line-height: 50px;
-    text-align: left;
-    padding-right: 45px;
-    padding-top: 60px;
-    padding-bottom: 200px;
-    max-width: 100%;
-    padding-left: 25px;
-    color: white;
-  }
-
-  .container .mora {
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    float: right;
-    padding: 25px 10px 0;
-    color: white;
-    padding-top: 30px;
-    padding-right: 60px;
-  }
-
-  .container .logo-disco {
-    padding: 25px 50px;
-    border-radius: 10%;
-    float: left;
-    height: 350px;
-    width: 580px;
-  }
-
   .container .parrafo-micro {
-    background-color: rgba(43, 38, 38, 0.808);
-=======
-.container .parrafo-micro {
     background-color: rgba(100, 148, 237, 0.582);
     color: black;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1524,17 +1419,10 @@ p {
     width: 500px;
   }
 
-<<<<<<< HEAD
   .container .parrafo-shoes {
-    background-color: rgb(0, 0, 0);
-    margin-left: 0%;
-    margin-right: 0%;
-=======
-.container .parrafo-shoes {
     background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1544,13 +1432,8 @@ p {
     padding-top: 80px;
     padding-bottom: 200px;
     max-width: 100%;
-<<<<<<< HEAD
-    color: white;
+    color: black;
   }
-=======
-    color:black;
-}
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
 
   .container .logotipos {
     display: flex;
@@ -1562,24 +1445,10 @@ p {
     margin-top: 25px;
   }
 
-<<<<<<< HEAD
-  .container .astro {
-    padding: 25px 50px;
-    border-radius: 15%;
-    float: left;
-    height: 400px;
-    width: 500px;
-  }
-
   .container .parrafo-logotipos {
-    background-color: rgb(0, 0, 0);
-    margin-top: 20px;
-=======
-.container .parrafo-logotipos {
     background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1589,13 +1458,8 @@ p {
     padding-top: 80px;
     padding-bottom: 200px;
     max-width: 100%;
-<<<<<<< HEAD
-    color: white;
-  }
-=======
     color: rgb(0, 0, 0);
-}
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
+  }
 
   .container .cine {
     padding: 25px 50px;
@@ -1605,16 +1469,10 @@ p {
     width: 500px;
   }
 
-<<<<<<< HEAD
   .container .parrafo-cine {
-    background-color: rgb(0, 0, 0);
-    margin-top: 20px;
-=======
-.container .parrafo-cine {
     background-color: rgba(100, 148, 237, 0.582);
     margin-left: 20px;
     margin-right: 20px;
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1624,14 +1482,8 @@ p {
     padding-top: 80px;
     padding-bottom: 200px;
     max-width: 100%;
-<<<<<<< HEAD
-    color: white;
-    margin-bottom: 50px;
-  }
-=======
     color: black;
-}
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
+  }
 
   .titulo-proto {
     text-align: center;
@@ -1677,7 +1529,7 @@ p {
     grid-auto-flow: row;
     justify-items: center;
     align-items: center;
-    grid-template-areas: "caja-silueta caja-silueta1" "caja-silueta2 caja-silueta3";
+    grid-template-areas: "caja-silueta caja-silueta1""caja-silueta2 caja-silueta3";
   }
 
   .caja-silueta .silueta {
@@ -1742,7 +1594,7 @@ p {
     grid-auto-flow: row;
     justify-items: center;
     align-items: center;
-    grid-template-areas: "psg-jordan psg-jordan1 psg-jordan2" "psg-jordan3 psg-jordan4 psg-jordan5";
+    grid-template-areas: "psg-jordan psg-jordan1 psg-jordan2""psg-jordan3 psg-jordan4 psg-jordan5";
   }
 
   .psg-jordan .psg-fut {
@@ -1857,7 +1709,7 @@ p {
     grid-auto-flow: row;
     justify-items: center;
     align-items: center;
-    grid-template-areas: "last last-dance" "fly fly";
+    grid-template-areas: "last last-dance""fly fly";
     height: 1000px;
   }
 
@@ -2290,7 +2142,7 @@ p {
   }
 
   input,
-textarea {
+  textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -2314,13 +2166,8 @@ textarea {
   #boton:hover {
     cursor: pointer;
     transform: scale(1.05);
-<<<<<<< HEAD
-    transition: all 0.3s ease 0s;
-  }
-=======
     transition: all 0.3s ease 0s
-}
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
+  }
 
   .titulo-1 {
     text-align: center;
@@ -2394,1275 +2241,1294 @@ textarea {
     transition: all 0.5s ease;
   }
 }
-<<<<<<< HEAD
 
-/*# sourceMappingURL=estilos.css.map */
-=======
-@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait){
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-    body {
-        font-family: sans-serif;
-    }
-    .fondo-nav {
-        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
-        box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
-        flex-direction: column;
-    }
-    .nav-link{
-        flex-direction: column-reverse;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bolder;
-        padding: 5px 5px;
-        margin: 5px;
-    }
-    .nav-link:hover{
-        background-color: rgb(84, 111, 185);
-        transform: scale(1.1);
-        transition:all 0.3s ease 0s ;
-        box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
-    }
-    
-    .nav-item {
-        font-size: 18px;
-        padding: 10px;
-        margin: 10px;
-        line-height: 10px;
-    }
-    .container .psg-jordan0{
-        height: 300px;
-        width: 270px;
-        margin-right: 20px;
-    }
-    .grid-thor .poster-thor{
-        margin-left: 100px;
-    }
-    .grid-mora .logo-mora{
-        margin-left: 150px;
-    }
-    .tracklist{
-        margin-left: 150px;
-    }
-    .meme-mora{
-        margin-left: 150px;
-    }
-    .grid-volver .volver1{
-        margin-left: 150px;
-    }
-    .grid-reserva .tarantino{
-        margin-left: 150px;
-    }
-    .grid-gloria .gloria3{
-        margin-left: 150px;
-    }
-    .grid-hollywood .hollywood{
-        margin-left: 150px;
-    }
+  body {
+    font-family: sans-serif;
+  }
+
+  .fondo-nav {
+    background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
+    box-shadow: 0 4px 5px rgb(107, 152, 221) !important;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    flex-direction: column-reverse;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bolder;
+    padding: 5px 5px;
+    margin: 5px;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(84, 111, 185);
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
+  }
+
+  .nav-item {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 10px;
+  }
+
+  .container .psg-jordan0 {
+    height: 300px;
+    width: 270px;
+    margin-right: 20px;
+  }
+
+  .grid-thor .poster-thor {
+    margin-left: 100px;
+  }
+
+  .grid-mora .logo-mora {
+    margin-left: 150px;
+  }
+
+  .tracklist {
+    margin-left: 150px;
+  }
+
+  .meme-mora {
+    margin-left: 150px;
+  }
+
+  .grid-volver .volver1 {
+    margin-left: 150px;
+  }
+
+  .grid-reserva .tarantino {
+    margin-left: 150px;
+  }
+
+  .grid-gloria .gloria3 {
+    margin-left: 150px;
+  }
+
+  .grid-hollywood .hollywood {
+    margin-left: 150px;
+  }
 }
 
 @media only screen and (min-width:992px) {
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: sans-serif;
-    }
-    .fondo-nav {
-        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
-        box-shadow: 0 4px 5px rgb(107, 152, 221)!important;
-    }
-    .nav-link{
-        flex-direction: column-reverse;
-        font-size: 20px;
-        font-weight: bolder;
-        padding: 25px 25px;
-        margin: 15px;
-    }
-    .nav-link:hover{
-        background-color: rgb(84, 111, 185);
-        transform: scale(1.1);
-        transition:all 0.3s ease 0s ;
-        box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
-    }
-    
-    .nav-item {
-        font-size: 18px;
-        padding: 20px;
-        margin: 10px;
-        line-height: 20px;
-    }
-    .carousel-inner img {
-        display: flex;
-        width: 100%;
-    }
-    .carousel-indicators{
-        display: flex;
-    }
-    .carousel-control-prev{
-        display: flex;
-    }
-    .carousel-control-next{
-        display: flex;
-    }
-    .titulo-carousel{
-        text-shadow: 3px 3px 2px rgb(49, 42, 42);
-        color: rgb(109, 109, 109);
-        font-size: 35px;
-        font-weight: bolder;
-    }
-    .parrafo-carousel{ 
-        text-shadow: 3px 3px 2px rgb(49, 42, 42);
-        color: rgb(109, 109, 109);
-        font-size: 25px;
-        font-weight: bolder;
-
-    }
-    .container {
-        max-width: 1800px;
-    }
-    .titulo1 {
-        border: ridge;
-        background-color: black;
-        color: white;
-        font-style: italic;
-        font-weight: bold;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 25px;
-    }
-
-    .titulo2 {
-        font-style: italic;
-        font-weight: bolder;
-        padding: 30px 25px;
-        font-size: 30px;
-        text-align: left;
-    }
-
-    .container .jordan1 {
-        padding: 25px 50px;
-        border-radius: 10%;
-        float: left;
-        height: 350px;
-        width: 600px;
-        margin-top: 125px;
-    }
-
-    .container .parrafo-j {
-        background-color: rgba(100, 148, 237, 0.582);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 45px;
-        padding-bottom: 200px;
-        max-width: 100%;
-    }
-
-    .titulo3 {
-        font-style: italic;
-        font-weight: bolder;
-        padding: 30px 25px;
-        font-size: 30px;
-    }
-
-    .container .psg {
-        float: right;
-        padding: 25px 50px;
-        display: flex;
-        border-radius: 12%;
-        height: 350px;
-        width: 500px;
-        margin-top: 125px;
-    }
-
-    .parrafo-p {
-        background-color: rgba(100, 148, 237, 0.582);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 45px;
-        padding-bottom: 200px;
-        max-width: 100%;
-    }
-
-    .titulo4 {
-        font-style: italic;
-        font-weight: bolder;
-        padding: 30px 25px;
-        font-size: 30px;
-    }
-
-    .container .michaeljordan {
-        padding: 25px 50px;
-        border-radius: 12%;
-        float: left;
-        height:350px;
-        width: 480px;
-        margin-top: 100px;
-        margin-left: 75px;
-    }
-
-    .container .parrafo-m {
-        background-color: rgba(100, 148, 237, 0.582);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 45px;
-        padding-bottom: 200px;
-        max-width: 100%;
-    }
-
-    .subtitulo2 {
-        border: ridge;
-        background-color: black;
-        color: white;
-        font-style: italic;
-        font-weight: bold;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 30px;
-    }
-
-    .container .ent {
-        font-style: italic;
-        font-weight: bolder;
-        padding: 30px 25px;
-        font-size: 70px;
-    }
-
-    .container .parrafo-ent {
-        font-style: italic;
-        font-size: 25px;
-        line-height: 35px;
-        text-align: center;
-        padding-right: 45px;
-        padding-top: 45px;
-        max-width: 100%;
-    }
-
-    .container .titulo-t {
-        font-family: sans-serif;
-        font-style: italic;
-        font-weight: bolder;
-        float: right;
-        padding: 25px 10px 0;
-        margin: 10px 10px;
-        color: white;
-    }
-
-    .container .logo-t {
-        padding: 25px 50px;
-        border-radius: 12%;
-        float: left;
-        height: 300px;
-        width: 500px;
-    }
-
-    .container .parrafo-t {
-        background-color: rgba(43, 38, 38, 0.808);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 50px;
-        padding-bottom: 200px;
-        margin: 20px 20px;
-        max-width: 100%;
-        color: white;
-    }
-
-    .container .moon {
-        font-family: sans-serif;
-        font-style: italic;
-        font-weight: bolder;
-        float: left;
-        color: white;
-        padding-top: 30px;
-        padding-left: 50px;
-    }
-
-    .container .logo-m {
-        padding: 25px 50px;
-        border-radius: 10%;
-        float: right;
-        height: 300px;
-        width: 500px;
-    }
-
-    .container .parrafo-k {
-        background-color: rgba(43, 38, 38, 0.808);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: left;
-        padding-right: 45px;
-        padding-top: 60px;
-        padding-bottom: 200px;
-        max-width: 100%;
-        padding-left: 25px;
-        color: white;
-    }
-
-    .container .mora {
-        font-family: sans-serif;
-        font-style: italic;
-        font-weight: bolder;
-        float: right;
-        padding: 25px 10px 0;
-        color: white;
-        padding-top: 30px;
-        padding-right: 60px;
-    }
-
-    .container .logo-disco {
-        padding: 25px 50px;
-        border-radius: 10%;
-        float: left;
-        height: 350px;
-        width: 580px;
-    }
-
-    .container .parrafo-micro {
-        background-color: rgba(43, 38, 38, 0.808);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 80px;
-        padding-bottom: 200px;
-        max-width: 100%;
-        color: white;
-    }
-
-    .subtitulo3 {
-        border: ridge;
-        background-color: black;
-        color: white;
-        font-style: italic;
-        font-weight: bold;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 30px;
-    }
-
-    .container .subtitulo4 {
-        font-style: italic;
-        font-size: 25px;
-        line-height: 35px;
-        text-align: center;
-        padding-right: 45px;
-        padding-top: 45px;
-        max-width: 100%;
-        margin: 10px 0px;
-    }
-
-    .container .shoes {
-        padding: 25px 50px;
-        border-radius: 15%;
-        float: right;
-        height: 400px;
-        width: 500px;
-        margin-top: 25px;
-    }
-
-    .container .shoes1 {
-        display: flex;
-        padding: 25px 50px;
-        border-radius: 15%;
-        float: left;
-        height: 400px;
-        width: 500px;
-    }
-
-    .container .parrafo-shoes {
-        background-color: rgb(0, 0, 0);
-        margin-left: 0%;
-        margin-right: 0%;
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: center;
-        padding-right: 45px;
-        padding-top: 80px;
-        padding-bottom: 200px;
-        max-width: 100%;
-        color: white;
-    }
-
-    .container .logotipos {
-        display: flex;
-        padding: 25px 50px;
-        border-radius: 15%;
-        float: right;
-        height: 300px;
-        width: 500px;
-        margin-top: 25px;
-    }
-
-    .container .astro {
-        padding: 25px 50px;
-        border-radius: 15%;
-        float: left;
-        height: 400px;
-        width: 500px;
-    }
-
-    .container .parrafo-logotipos {
-        background-color: rgb(0, 0, 0);
-        margin-top: 20px;
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: center;
-        padding-right: 45px;
-        padding-top: 80px;
-        padding-bottom: 200px;
-        max-width: 100%;
-        color: white;
-    }
-
-    .container .cine {
-        padding: 25px 50px;
-        border-radius: 15%;
-        float: left;
-        height: 400px;
-        width: 500px;
-    }
-
-    .container .parrafo-cine {
-        background-color: rgb(0, 0, 0);
-        margin-top: 20px;
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 50px;
-        text-align: center;
-        padding-right: 45px;
-        padding-top: 80px;
-        padding-bottom: 200px;
-        max-width: 100%;
-        color: white;
-        margin-bottom: 50px;
-    }
-
-    .titulo-proto {
-        text-align: center;
-        font: sans-serif;
-        font-size: 50px;
-        line-height: 75px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        line-height: 50px;
-
-    }
-
-    .proto {
-        display: flex;
-        padding: 25px 50px;
-        border-radius: 10%;
-        float: left;
-        width: 600px;
-        height: 300x;
-    }
-
-    .parrafo-proto {
-        background-color: rgb(0, 0, 0);
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 30px;
-        line-height: 50px;
-        text-align: center;
-        max-width: 100%;
-        color: white;
-        margin-left: 700px;
-        padding: 20px 10px;
-        margin-bottom: 35px;
-    }
-
-    .container-silueta {
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 50px 50px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "caja-silueta caja-silueta1"
-            "caja-silueta2 caja-silueta3";
-    }
-
-    .caja-silueta .silueta {
-        justify-self: center;
-        align-self: center;
-        grid-area: caja-silueta;
-        width: 400px;
-        height: 400px;
-    }
-
-    .caja-silueta1 .silueta {
-        grid-area: caja-silueta1;
-        width: 400px;
-        height: 400px;
-    }
-
-    .caja-silueta2 .silueta {
-        grid-area: caja-silueta2;
-        width: 400px;
-        height: 500px;
-    }
-
-    .caja-silueta3 .silueta {
-        grid-area: caja-silueta3;
-        width: 500px;
-        height: 500px;
-    }
-
-    .parrafo-silueta {
-        font-family: sans-serif;
-        font-style: italic;
-        font-size: 30px;
-        line-height: 50px;
-        margin: 25px 25px;
-    }
-
-    .container .titulo-psg {
-        text-align: center;
-        font-style: italic;
-        font-size: 50px;
-        margin-top: 30px;
-        margin-bottom: 35px;
-        line-height: 50px;
-    }
-
-    .container .parrafo-psg {
-        font-family: sans-serif;
-        font-style: italic;
-        font-size: 30px;
-        line-height: 50px;
-        margin: 25px 25px;
-        text-align: center;
-    }
-
-    .caja-psg {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 50px 50px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "psg-jordan psg-jordan1 psg-jordan2"
-            "psg-jordan3 psg-jordan4 psg-jordan5";
-    }
-
-    .psg-jordan .psg-fut {
-        align-self: center;
-        grid-area: psg-jordan;
-        width: 460px;
-        height: 460px;
-        margin: 10px 10px;
-    }
-
-    .psg-jordan6 .psg-fut {
-        justify-self: center;
-        align-self: center;
-        grid-area: psg-jordan1;
-        width: 460px;
-        height: 460px;
-
-    }
-
-    .psg-jordan2 .psg-fut {
-        grid-area: psg-jordan2;
-        width: 460px;
-        height: 460px;
-        margin-left: 60px;
-    }
-
-    .psg-jordan3 .psg-fut {
-        grid-area: psg-jordan3;
-        width: 460px;
-        height: 460px;
-    }
-
-    .psg-jordan4 .psg-fut {
-        grid-area: psg-jordan4;
-        width: 460px;
-        height: 460px;
-    }
-
-    .psg-jordan5 .psg-fut {
-        grid-area: psg-jordan5;
-        width: 460px;
-        height: 460px;
-        margin-left: 60px;
-    }
-
-    .container .parrafo-psg2 {
-        font-family: sans-serif;
-        font-style: italic;
-        font-size: 30px;
-        line-height: 60px;
-        margin: 25px 25px;
-    }
-
-    .container .psg-jordan0 {
-        width: 400px;
-        height: 500px;
-        padding: 45px 45pxpx;
-        margin-left: 200px;
-        margin-right: 5px;
-        border-radius: 25px;
-    }
-
-    .container .jordan-fc {
-        text-align: center;
-        font-style: italic;
-        font-size: 50px;
-        margin-top: 30px;
-        margin-bottom: 35px;
-        line-height: 50px;
-    }
-
-    .container .mj {
-        display: flex;
-        width: 700px;
-        height: 600px;
-        padding: 25px 50px;
-        border-radius: 10%;
-        float: left;
-        margin: 30px 20px;
-    }
-
-    .container .parrafo-mj {
-        background-color: black;
-        border-radius: 3%;
-        font-style: italic;
-        font-size: 25px;
-        line-height: 60px;
-        text-align: right;
-        padding-right: 45px;
-        padding-top: 80px;
-        padding-bottom: 100px;
-        max-width: 100%;
-        color: white;
-    }
-
-    .container .parrafo-mj2 {
-        font-family: sans-serif;
-        font-style: italic;
-        font-size: 30px;
-        line-height: 50px;
-        margin: 25px 25px;
-        text-align: center;
-        margin: 20px 30px;
-    }
-
-    .grid-mj {
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr;
-        grid-template-rows: 0fr 0.5fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 50px 50px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "last last-dance"
-            "fly fly";
-        height: 1000px;
-    }
-
-    .last .jordan-mj {
-        justify-self: center;
-        align-self: center;
-        grid-area: last;
-        width: 500px;
-        height: 300px;
-        margin-left: -500px;
-    }
-
-    .last-dance .jordan-mj2 {
-        justify-self: center;
-        align-self: center;
-        grid-area: last-dance;
-        width: 500px;
-        height: 300px;
-        margin-left: -500px;
-        border-radius: 5%;
-    }
-
-    .fly .jordan-mj1 {
-        grid-area: fly;
-        width: 900px;
-        height: 600px;
-        margin-left: 300px;
-    }
-
-    .container .mj-fc {
-        font-weight: bold;
-        font-style: italic;
-        padding: 50px 45px;
-        font-size: 60px;
-    }
-
-    .container .video-mj {
-        display: flex;
-        width: 1200px;
-        height: 700px;
-        margin-top: 35px;
-        margin-bottom: 35px;
-        margin-left: 200px;
-    }
-
-    .container .titulo-thor {
-        text-align: center;
-        font: sans-serif;
-        font-size: 50px;
-        line-height: 75px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        line-height: 100px;
-    }
-
-    .sinopsis {
-        font-style: italic;
-        font-size: 30px;
-        margin: 10px 10px;
-    }
-
-    .container .parrafo-thor {
-        font-family: sans-serif;
-        max-width: 100%;
-        font-size: 25px;
-        line-height: 35px;
-        margin: 20px 20px;
-        text-align: center;
-    }
-
-    .grid-thor {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
-        gap: 0px 26px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .grid-thor .foster {
-        display: flex;
-        height: 480px;
-        width: 700px;
-        margin-left: 25px;
-    }
-
-
-    .container .thor-trailer {
-        display: flex;
-        border: black 10px;
-        height: 600px;
-        width: 1000px;
-
-    }
-
-    .titulo-mk {
-        font: sans-serif;
-        font-size: 50px;
-        line-height: 75px;
-        margin: 20px 50px;
-
-    }
-
-    .subtitulo-mk {
-        font-size: 30px;
-        margin: 20px 20px;
-
-    }
-
-    .parrafo-mk {
-        font-size: 18px;
-        line-height: 30px;
-        margin: 40px 100px;
-    }
-
-    .subtitulo-mk2 {
-        font-size: 30px;
-        margin-left: 250px;
-    }
-
-    .container .mk-trailer {
-        display: flex;
-        height: 700px;
-        width: 1000px;
-        padding: 25px 25px;
-        margin-left: 360px;
-    }
-
-    .grid-mk {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "poster-mk poster-mk2 poster-mk3";
-
-    }
-
-    .poster-mk .caballero-luna {
-        grid-area: poster-mk;
-        width: 450px;
-        height: 650px;
-    }
-
-    .poster-mk2 .caballero-luna {
-        grid-area: poster-mk2;
-        width: 450px;
-        height: 640px;
-    }
-
-    .poster-mk3 .caballero-luna {
-        grid-area: poster-mk3;
-        width: 450px;
-        height: 650px;
-    }
-
-
-
-    .cap {
-        font-size: 30px;
-        margin: 20px 20px;
-    }
-
-    .parrafo-cap {
-        font-size: 18px;
-        line-height: 40px;
-        margin-left: 50px;
-    }
-
-    .titulo-musica {
-        font: sans-serif;
-        font-size: 50px;
-        line-height: 75px;
-        margin: 20px 50px;
-
-    }
-
-    .subtitulo-musica {
-        font-size: 30px;
-        margin: 20px 20px;
-    }
-
-    .grid-mora {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "parrafo-mora parrafo-mora1";
-    }
-
-    .parrafo-mora {
-        grid-area: parrafo-mora;
-        width: 450px;
-        height: 650px;
-    }
-
-    .parrafo-mora1 .parrafo-microdosis {
-        grid-area: parrafo-mora1;
-        width: 600px;
-        height: 600px;
-    }
-
-    .playlist {
-        border-radius: 12%;
-    }
-
-    .sub-microdosis {
-        font-size: 30px;
-        margin: 20px 50px;
-    }
-
-    .meme-mora {
-        width: 600px;
-        height: 500px;
-        padding: 5px 5px;
-        border-radius: 3px;
-        background-color: #000000;
-        margin-left: 100px;
-        margin-right: 70px;
-
-    }
-
-    .meme-mora1 {
-        width: 600px;
-        height: 550px;
-        padding: 5px 5px;
-        border-radius: 3px;
-        background-color: #000000;
-        margin-left: 70px;
-        margin-right: 70px;
-    }
-
-    .nosotros {
-        font: sans-serif;
-        font-size: 50px;
-        line-height: 75px;
-        margin: 20px 50px;
-    }
-
-    .sub-nosotros {
-        font-size: 25px;
-        margin: 20px 20px;
-    }
-
-    .peliculas {
-        font-size: 30px;
-        margin: 20px 50px;
-        text-align: left;
-    }
-
-    .volver-li {
-        font-size: 25px;
-        margin: 20px 20px;
-        text-align: left;
-    }
-
-    .grid-volver {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "volver1 volver2";
-    }
-
-    .volver1 {
-        grid-area: volver1;
-        width: 550px;
-        height: 650px;
-        padding: 15px 15px;
-    }
-
-    .volver2 {
-        display: flex;
-        grid-area: volver2;
-        width: 700px;
-        height: 550px;
-    }
-
-    .sub-volver {
-        font-size: 28px;
-        line-height: 30px;
-        margin: 40px 100px;
-    }
-
-    .grid-reserva {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "tarantino reserva reserva1";
-    }
-
-    .tarantino {
-        grid-area: tarantino;
-        width: 300px;
-        height: 500px;
-        padding: 10px 10px;
-        margin: 25px 60px;
-        border-radius: 25px;
-        border-radius: 3px;
-    }
-
-    .reserva {
-        grid-area: reserva;
-        display: flex;
-        width: 500px;
-        padding: 10px 10px;
-        margin: 25px 60px;
-    }
-
-    .reserva1 {
-        grid-area: reserva1;
-        display: flex;
-        width: 500px;
-        height: 600px;
-        padding: 10px 10px;
-        margin: 25px 60px;
-    }
-
-    .tarantino1 {
-        font-size: 28px;
-        line-height: 30px;
-        margin: 40px 100px;
-    }
-
-    .grid-gloria {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "gloria3 gloria gloria1";
-    }
-
-    .gloria3 {
-        grid-area: gloria3;
-        width: 400px;
-        height: 500px;
-        padding: 10px 10px;
-        margin: 25px 30px
-    }
-
-    .gloria {
-        grid-area: gloria;
-        display: flex;
-        width: 680px;
-        height: 400px;
-        padding: 10px 10px;
-        margin: 25px 30px
-    }
-
-    .gloria1 {
-        grid-area: gloria1;
-        display: flex;
-        width: 600px;
-        height: auto;
-        padding: 10px 10px;
-        margin: 25px 30px
-    }
-
-    .grid-hollywood {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0em 5px;
-        grid-auto-flow: row;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
-            "hollywood hollywood1 hollywood2";
-    }
-
-    .hollywood {
-        grid-area: hollywood;
-        width: 300px;
-        height: 500px;
-        padding: 10px 10px;
-        margin: 25px 60px;
-    }
-
-    .hollywood1 {
-        grid-area: hollywood1;
-        display: flex;
-        width: 680px;
-        height: 450px;
-    }
-
-    .hollywood2 {
-        grid-area: hollywood2;
-        display: flex;
-        width: 450px;
-        height: 500px;
-        padding: 10px 10px;
-        margin: 25px 60px;
-    }
-
-    .titulo-1 {
-        text-align: center;
-        font-family: sans-serif;
-    }
-
-    .subtitulo-01 {
-        text-align: center;
-        font-family: sans-serif;
-
-    }
-
-    form {
-        width: 450px;
-        margin: auto;
-        background: rgb(107, 152, 221);
-        padding: 10px 20px;
-        box-sizing: border-box;
-        margin-top: 20px;
-        border-radius: 5px;
-    }
-
-    .form {
-        text-align: center;
-        margin: 0;
-        font-size: 30px;
-        margin-bottom: 20px;
-        font-style: italic;
-        font-weight: bold;
-        font-family: sans-serif;
-    }
-
-    input,
-    textarea {
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 7px;
-        box-sizing: border-box;
-        font-size: 17px;
-        border: none;
-    }
-
-    textarea {
-        min-height: 100px;
-        max-height: 200px;
-        max-width: 100%;
-    }
-
-
-
-    #boton {
-        background: #100216;
-        color: #fff;
-        padding: 20px;
-    }
-
-    #boton:hover {
-        cursor: pointer;
-        transform: scale(1.05);
-        transition: all 0.3s ease 0s
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    .titulo-1 {
-        text-align: center;
-        font-family: sans-serif;
-    }
-
-    .subtitulo-01 {
-        text-align: center;
-        font-family: sans-serif;
-
-    }
-
-    .pie-pagina {
-        width: 100%;
-        background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
-        min-height: 100%
-    }
-
-    .pie-pagina .grupo-1 {
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 50px;
-        padding: 45px 0px;
-    }
-
-    h2 {
-        font-family: sans-serif;
-        text-align: center;
-    }
-
-    p {
-        font: sans-serif;
-        text-align: center;
-    }
-
-    .pie-pagina .grupo-1 .box figure {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .pie-pagina .grupo-1 .box figure img {
-        width: 250px;
-
-    }
-
-    .pie-pagina .grupo-1 .box h2 {
-        color: white;
-        margin-bottom: 25px;
-        font-size: 20px;
-
-    }
-
-    .pie-pagina .grupo-1 .box p {
-        color: #efefef;
-        margin-bottom: 10px;
-    }
-
-    .pie-pagina .grupo-1 .red-social a {
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        color: #fff;
-        margin-right: 10px;
-        background-color: rgb(27, 82, 184);
-        text-align: center;
-        margin: 15px 15px;
-        transition: all 0.5s ease;
-    }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .fondo-nav {
+    background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
+    box-shadow: 0 4px 5px rgb(107, 152, 221) !important;
+  }
+
+  .nav-link {
+    flex-direction: column-reverse;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 25px 25px;
+    margin: 15px;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(84, 111, 185);
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 30px -15px rgb(0, 0, 0, 0.5);
+  }
+
+  .nav-item {
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    line-height: 20px;
+  }
+
+  .carousel-inner img {
+    display: flex;
+    width: 100%;
+  }
+
+  .carousel-indicators {
+    display: flex;
+  }
+
+  .carousel-control-prev {
+    display: flex;
+  }
+
+  .carousel-control-next {
+    display: flex;
+  }
+
+  .titulo-carousel {
+    text-shadow: 3px 3px 2px rgb(49, 42, 42);
+    color: rgb(109, 109, 109);
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .parrafo-carousel {
+    text-shadow: 3px 3px 2px rgb(49, 42, 42);
+    color: rgb(109, 109, 109);
+    font-size: 25px;
+    font-weight: bolder;
+
+  }
+
+  .container {
+    max-width: 1800px;
+  }
+
+  .titulo1 {
+    border: ridge;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 25px;
+  }
+
+  .titulo2 {
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .container .jordan1 {
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: left;
+    height: 350px;
+    width: 600px;
+    margin-top: 125px;
+  }
+
+  .container .parrafo-j {
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 200px;
+    max-width: 100%;
+  }
+
+  .titulo3 {
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+  }
+
+  .container .psg {
+    float: right;
+    padding: 25px 50px;
+    display: flex;
+    border-radius: 12%;
+    height: 350px;
+    width: 500px;
+    margin-top: 125px;
+  }
+
+  .parrafo-p {
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 200px;
+    max-width: 100%;
+  }
+
+  .titulo4 {
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 30px;
+  }
+
+  .container .michaeljordan {
+    padding: 25px 50px;
+    border-radius: 12%;
+    float: left;
+    height: 350px;
+    width: 480px;
+    margin-top: 100px;
+    margin-left: 75px;
+  }
+
+  .container .parrafo-m {
+    background-color: rgba(100, 148, 237, 0.582);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 200px;
+    max-width: 100%;
+  }
+
+  .subtitulo2 {
+    border: ridge;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+  }
+
+  .container .ent {
+    font-style: italic;
+    font-weight: bolder;
+    padding: 30px 25px;
+    font-size: 70px;
+  }
+
+  .container .parrafo-ent {
+    font-style: italic;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    padding-right: 45px;
+    padding-top: 45px;
+    max-width: 100%;
+  }
+
+  .container .titulo-t {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    float: right;
+    padding: 25px 10px 0;
+    margin: 10px 10px;
+    color: white;
+  }
+
+  .container .logo-t {
+    padding: 25px 50px;
+    border-radius: 12%;
+    float: left;
+    height: 300px;
+    width: 500px;
+  }
+
+  .container .parrafo-t {
+    background-color: rgba(43, 38, 38, 0.808);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin: 20px 20px;
+    max-width: 100%;
+    color: white;
+  }
+
+  .container .moon {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    float: left;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+
+  .container .logo-m {
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: right;
+    height: 300px;
+    width: 500px;
+  }
+
+  .container .parrafo-k {
+    background-color: rgba(43, 38, 38, 0.808);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: left;
+    padding-right: 45px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    padding-left: 25px;
+    color: white;
+  }
+
+  .container .mora {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    float: right;
+    padding: 25px 10px 0;
+    color: white;
+    padding-top: 30px;
+    padding-right: 60px;
+  }
+
+  .container .logo-disco {
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: left;
+    height: 350px;
+    width: 580px;
+  }
+
+  .container .parrafo-micro {
+    background-color: rgba(43, 38, 38, 0.808);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    color: white;
+  }
+
+  .subtitulo3 {
+    border: ridge;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+  }
+
+  .container .subtitulo4 {
+    font-style: italic;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    padding-right: 45px;
+    padding-top: 45px;
+    max-width: 100%;
+    margin: 10px 0px;
+  }
+
+  .container .shoes {
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: right;
+    height: 400px;
+    width: 500px;
+    margin-top: 25px;
+  }
+
+  .container .shoes1 {
+    display: flex;
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: left;
+    height: 400px;
+    width: 500px;
+  }
+
+  .container .parrafo-shoes {
+    background-color: rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    color: white;
+  }
+
+  .container .logotipos {
+    display: flex;
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-top: 25px;
+  }
+
+  .container .astro {
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: left;
+    height: 400px;
+    width: 500px;
+  }
+
+  .container .parrafo-logotipos {
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    color: white;
+  }
+
+  .container .cine {
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: left;
+    height: 400px;
+    width: 500px;
+  }
+
+  .container .parrafo-cine {
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .titulo-proto {
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+
+  }
+
+  .proto {
+    display: flex;
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: left;
+    width: 600px;
+    height: 300x;
+  }
+
+  .parrafo-proto {
+    background-color: rgb(0, 0, 0);
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    margin-left: 700px;
+    padding: 20px 10px;
+    margin-bottom: 35px;
+  }
+
+  .container-silueta {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 50px 50px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "caja-silueta caja-silueta1"
+      "caja-silueta2 caja-silueta3";
+  }
+
+  .caja-silueta .silueta {
+    justify-self: center;
+    align-self: center;
+    grid-area: caja-silueta;
+    width: 400px;
+    height: 400px;
+  }
+
+  .caja-silueta1 .silueta {
+    grid-area: caja-silueta1;
+    width: 400px;
+    height: 400px;
+  }
+
+  .caja-silueta2 .silueta {
+    grid-area: caja-silueta2;
+    width: 400px;
+    height: 500px;
+  }
+
+  .caja-silueta3 .silueta {
+    grid-area: caja-silueta3;
+    width: 500px;
+    height: 500px;
+  }
+
+  .parrafo-silueta {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 25px 25px;
+  }
+
+  .container .titulo-psg {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 50px;
+  }
+
+  .container .parrafo-psg {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 25px 25px;
+    text-align: center;
+  }
+
+  .caja-psg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 50px 50px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "psg-jordan psg-jordan1 psg-jordan2"
+      "psg-jordan3 psg-jordan4 psg-jordan5";
+  }
+
+  .psg-jordan .psg-fut {
+    align-self: center;
+    grid-area: psg-jordan;
+    width: 460px;
+    height: 460px;
+    margin: 10px 10px;
+  }
+
+  .psg-jordan6 .psg-fut {
+    justify-self: center;
+    align-self: center;
+    grid-area: psg-jordan1;
+    width: 460px;
+    height: 460px;
+
+  }
+
+  .psg-jordan2 .psg-fut {
+    grid-area: psg-jordan2;
+    width: 460px;
+    height: 460px;
+    margin-left: 60px;
+  }
+
+  .psg-jordan3 .psg-fut {
+    grid-area: psg-jordan3;
+    width: 460px;
+    height: 460px;
+  }
+
+  .psg-jordan4 .psg-fut {
+    grid-area: psg-jordan4;
+    width: 460px;
+    height: 460px;
+  }
+
+  .psg-jordan5 .psg-fut {
+    grid-area: psg-jordan5;
+    width: 460px;
+    height: 460px;
+    margin-left: 60px;
+  }
+
+  .container .parrafo-psg2 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 25px 25px;
+  }
+
+  .container .psg-jordan0 {
+    width: 400px;
+    height: 500px;
+    padding: 45px 45pxpx;
+    margin-left: 200px;
+    margin-right: 5px;
+    border-radius: 25px;
+  }
+
+  .container .jordan-fc {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 50px;
+  }
+
+  .container .mj {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: left;
+    margin: 30px 20px;
+  }
+
+  .container .parrafo-mj {
+    background-color: black;
+    border-radius: 3%;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 45px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    color: white;
+  }
+
+  .container .parrafo-mj2 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 25px 25px;
+    text-align: center;
+    margin: 20px 30px;
+  }
+
+  .grid-mj {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 50px 50px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "last last-dance"
+      "fly fly";
+    height: 1000px;
+  }
+
+  .last .jordan-mj {
+    justify-self: center;
+    align-self: center;
+    grid-area: last;
+    width: 500px;
+    height: 300px;
+    margin-left: -500px;
+  }
+
+  .last-dance .jordan-mj2 {
+    justify-self: center;
+    align-self: center;
+    grid-area: last-dance;
+    width: 500px;
+    height: 300px;
+    margin-left: -500px;
+    border-radius: 5%;
+  }
+
+  .fly .jordan-mj1 {
+    grid-area: fly;
+    width: 900px;
+    height: 600px;
+    margin-left: 300px;
+  }
+
+  .container .mj-fc {
+    font-weight: bold;
+    font-style: italic;
+    padding: 50px 45px;
+    font-size: 60px;
+  }
+
+  .container .video-mj {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 200px;
+  }
+
+  .container .titulo-thor {
+    text-align: center;
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 100px;
+  }
+
+  .sinopsis {
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px 10px;
+  }
+
+  .container .parrafo-thor {
+    font-family: sans-serif;
+    max-width: 100%;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 20px 20px;
+    text-align: center;
+  }
+
+  .grid-thor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 26px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .grid-thor .foster {
+    display: flex;
+    height: 480px;
+    width: 700px;
+    margin-left: 25px;
+  }
+
+
+  .container .thor-trailer {
+    display: flex;
+    border: black 10px;
+    height: 600px;
+    width: 1000px;
+
+  }
+
+  .titulo-mk {
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin: 20px 50px;
+
+  }
+
+  .subtitulo-mk {
+    font-size: 30px;
+    margin: 20px 20px;
+
+  }
+
+  .parrafo-mk {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 40px 100px;
+  }
+
+  .subtitulo-mk2 {
+    font-size: 30px;
+    margin-left: 250px;
+  }
+
+  .container .mk-trailer {
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    padding: 25px 25px;
+    margin-left: 360px;
+  }
+
+  .grid-mk {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "poster-mk poster-mk2 poster-mk3";
+
+  }
+
+  .poster-mk .caballero-luna {
+    grid-area: poster-mk;
+    width: 450px;
+    height: 650px;
+  }
+
+  .poster-mk2 .caballero-luna {
+    grid-area: poster-mk2;
+    width: 450px;
+    height: 640px;
+  }
+
+  .poster-mk3 .caballero-luna {
+    grid-area: poster-mk3;
+    width: 450px;
+    height: 650px;
+  }
+
+
+
+  .cap {
+    font-size: 30px;
+    margin: 20px 20px;
+  }
+
+  .parrafo-cap {
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 50px;
+  }
+
+  .titulo-musica {
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin: 20px 50px;
+
+  }
+
+  .subtitulo-musica {
+    font-size: 30px;
+    margin: 20px 20px;
+  }
+
+  .grid-mora {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "parrafo-mora parrafo-mora1";
+  }
+
+  .parrafo-mora {
+    grid-area: parrafo-mora;
+    width: 450px;
+    height: 650px;
+  }
+
+  .parrafo-mora1 .parrafo-microdosis {
+    grid-area: parrafo-mora1;
+    width: 600px;
+    height: 600px;
+  }
+
+  .playlist {
+    border-radius: 12%;
+  }
+
+  .sub-microdosis {
+    font-size: 30px;
+    margin: 20px 50px;
+  }
+
+  .meme-mora {
+    width: 600px;
+    height: 500px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    background-color: #000000;
+    margin-left: 100px;
+    margin-right: 70px;
+
+  }
+
+  .meme-mora1 {
+    width: 600px;
+    height: 550px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    background-color: #000000;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .nosotros {
+    font: sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin: 20px 50px;
+  }
+
+  .sub-nosotros {
+    font-size: 25px;
+    margin: 20px 20px;
+  }
+
+  .peliculas {
+    font-size: 30px;
+    margin: 20px 50px;
+    text-align: left;
+  }
+
+  .volver-li {
+    font-size: 25px;
+    margin: 20px 20px;
+    text-align: left;
+  }
+
+  .grid-volver {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "volver1 volver2";
+  }
+
+  .volver1 {
+    grid-area: volver1;
+    width: 550px;
+    height: 650px;
+    padding: 15px 15px;
+  }
+
+  .volver2 {
+    display: flex;
+    grid-area: volver2;
+    width: 700px;
+    height: 550px;
+  }
+
+  .sub-volver {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 40px 100px;
+  }
+
+  .grid-reserva {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "tarantino reserva reserva1";
+  }
+
+  .tarantino {
+    grid-area: tarantino;
+    width: 300px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 25px 60px;
+    border-radius: 25px;
+    border-radius: 3px;
+  }
+
+  .reserva {
+    grid-area: reserva;
+    display: flex;
+    width: 500px;
+    padding: 10px 10px;
+    margin: 25px 60px;
+  }
+
+  .reserva1 {
+    grid-area: reserva1;
+    display: flex;
+    width: 500px;
+    height: 600px;
+    padding: 10px 10px;
+    margin: 25px 60px;
+  }
+
+  .tarantino1 {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 40px 100px;
+  }
+
+  .grid-gloria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "gloria3 gloria gloria1";
+  }
+
+  .gloria3 {
+    grid-area: gloria3;
+    width: 400px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 25px 30px
+  }
+
+  .gloria {
+    grid-area: gloria;
+    display: flex;
+    width: 680px;
+    height: 400px;
+    padding: 10px 10px;
+    margin: 25px 30px
+  }
+
+  .gloria1 {
+    grid-area: gloria1;
+    display: flex;
+    width: 600px;
+    height: auto;
+    padding: 10px 10px;
+    margin: 25px 30px
+  }
+
+  .grid-hollywood {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "hollywood hollywood1 hollywood2";
+  }
+
+  .hollywood {
+    grid-area: hollywood;
+    width: 300px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 25px 60px;
+  }
+
+  .hollywood1 {
+    grid-area: hollywood1;
+    display: flex;
+    width: 680px;
+    height: 450px;
+  }
+
+  .hollywood2 {
+    grid-area: hollywood2;
+    display: flex;
+    width: 450px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 25px 60px;
+  }
+
+  .titulo-1 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .subtitulo-01 {
+    text-align: center;
+    font-family: sans-serif;
+
+  }
+
+  form {
+    width: 450px;
+    margin: auto;
+    background: rgb(107, 152, 221);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .form {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+  }
+
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+
+
+  #boton {
+    background: #100216;
+    color: #fff;
+    padding: 20px;
+  }
+
+  #boton:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .titulo-1 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .subtitulo-01 {
+    text-align: center;
+    font-family: sans-serif;
+
+  }
+
+  .pie-pagina {
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #246fe1, #4778df, #5d81dd, #708bda, #8094d8);
+    min-height: 100%
+  }
+
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font: sans-serif;
+    text-align: center;
+  }
+
+  .pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+
+  }
+
+  .pie-pagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+  }
+
+  .pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(27, 82, 184);
+    text-align: center;
+    margin: 15px 15px;
+    transition: all 0.5s ease;
+  }
 }
->>>>>>> 569436ada9c200af84393d611be4e3a09ef48951
