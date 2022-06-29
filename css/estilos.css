@@ -413,7 +413,7 @@ body {
 }
 
 .parrafo-proto {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -455,7 +455,7 @@ body {
 }
 
 .container .parrafo-psg {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -511,14 +511,14 @@ body {
 }
 
 .container .parrafo-mj {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
   line-height: 50px;
   text-align: center;
   max-width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 20px 20px;
   margin: 30px 40px;
 }
@@ -588,7 +588,7 @@ body {
 }
 
 .container .parrafo-thor {
-  background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -638,7 +638,7 @@ body {
 }
 
 .container .parrafo-mk {
-  background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -675,7 +675,7 @@ body {
 }
 
 .container .parrafo-cap {
-  background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -714,7 +714,7 @@ body {
 }
 
 .parrafo-microdosis {
-  background-image: linear-gradient(to bottom, #251702, #312313, #3e301f, #4b3d2b, #594a37);
+  background-image: linear-gradient(to bottom, #11161f, #1c2029, #272b33, #33363d, #3f4148);
   border-radius: 3%;
   font-style: italic;
   font-size: 25px;
@@ -893,11 +893,11 @@ body {
 
 form {
   width: 450px;
-  margin: auto;
   background: rgb(107, 152, 221);
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-radius: 5px;
 }
 
@@ -2240,6 +2240,10 @@ p {
     margin: 15px 15px;
     transition: all 0.5s ease;
   }
+  .red-social{
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
@@ -2319,6 +2323,28 @@ p {
   .grid-hollywood .hollywood {
     margin-left: 150px;
   }
+  .titulo-1{
+    border: ridge;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin: 25px;
+  }
+  .form{
+    margin: 25px;
+  
+  }
+  form{
+    width: 450px;
+    background: rgb(107, 152, 221);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
 }
 
 @media only screen and (min-width:992px) {
@@ -3388,6 +3414,12 @@ p {
   .titulo-1 {
     text-align: center;
     font-family: sans-serif;
+    border: ridge;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    
   }
 
   .subtitulo-01 {
@@ -3398,17 +3430,16 @@ p {
 
   form {
     width: 450px;
-    margin: auto;
     background: rgb(107, 152, 221);
     padding: 10px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border-radius: 5px;
   }
 
   .form {
     text-align: center;
-    margin: 0;
     font-size: 30px;
     margin-bottom: 20px;
     font-style: italic;
@@ -3445,15 +3476,6 @@ p {
     transform: scale(1.05);
     transition: all 0.3s ease 0s
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3530,5 +3552,9 @@ p {
     text-align: center;
     margin: 15px 15px;
     transition: all 0.5s ease;
+  }
+  .red-social{
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s
   }
 }
