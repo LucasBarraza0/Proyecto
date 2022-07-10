@@ -1349,7 +1349,7 @@ p {
     float: right;
     padding: 25px 10px 0;
     margin: 10px 10px;
-    color: white;
+    color: black;
   }
 
   .container .logo-t {
@@ -1361,7 +1361,7 @@ p {
   }
 
   .container .parrafo-t {
-    background-color: rgba(43, 38, 38, 0.808);
+    background-color: rgba(100, 148, 237, 0.582);
     border-radius: 3%;
     font-style: italic;
     font-size: 25px;
@@ -1370,24 +1370,9 @@ p {
     padding-right: 45px;
     padding-top: 50px;
     padding-bottom: 200px;
-    margin: 20px 20px;
     max-width: 100%;
     margin-left: 20px;
-  }
-
-  .container .moon {
-    text-align: center;
-    font-style: italic;
-    font-weight: bolder;
-    padding: 30px 25px;
-    font-size: 30px;
-  }
-
-  .container .logo-m {
-    width: 100%;
-    height: 300px;
-    padding: 25px 50px;
-    border-radius: 10%
+    margin-bottom: 50px;
   }
 
   .container .parrafo-k {
@@ -1411,7 +1396,7 @@ p {
     font-style: italic;
     font-weight: bolder;
     float: left;
-    color: white;
+    color: black;
     padding-top: 30px;
     padding-left: 50px;
   }
@@ -1420,6 +1405,13 @@ p {
     padding: 25px 50px;
     border-radius: 10%;
     float: right;
+    height: 300px;
+    width: 500px;
+  }
+  .container .logo-disco{
+    padding: 25px 50px;
+    border-radius: 10%;
+    float: left;
     height: 300px;
     width: 500px;
   }
@@ -1436,7 +1428,7 @@ p {
     padding-top: 80px;
     padding-bottom: 200px;
     max-width: 100%;
-    color: white;
+    color: black;
   }
 
   .subtitulo3 {
@@ -1500,6 +1492,15 @@ p {
     padding: 25px 50px;
     border-radius: 15%;
     float: right;
+    height: 300px;
+    width: 500px;
+    margin-top: 25px;
+  }
+  .container .astro{
+    display: flex;
+    padding: 25px 50px;
+    border-radius: 15%;
+    float: left;
     height: 300px;
     width: 500px;
     margin-top: 25px;
